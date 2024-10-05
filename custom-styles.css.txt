@@ -1,0 +1,11 @@
+/* Hier überschreibst du die Breite und Höhe des Widgets */
+#VG_OVERLAY_CONTAINER iframe {
+    width: 300px !important; /* Stell hier deine Wunschbreite ein */
+    height: 400px !important; /* Stell hier deine Wunschhöhe ein */
+}
+
+/* Passe den Nachrichtenbereich an */
+.vg-chatbox {
+    width: 100% !important;
+    height: 300px !important; /* Nachrichtenfenster kleiner machen */
+}
