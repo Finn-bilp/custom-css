@@ -1,15 +1,14 @@
-/* Hier überschreibst du die Breite und Höhe des Widgets */
-#VG_OVERLAY_CONTAINER iframe {
-    width: 300px !important; /* Stell hier deine Wunschbreite ein */
-    height: 400px !important; /* Stell hier deine Wunschhöhe ein */
-    position: fixed !important; /* Behält die Position des Widgets bei */
-    bottom: 20px !important; /* Abstand vom unteren Rand */
-    right: 20px !important; /* Abstand vom rechten Rand */
-    z-index: 9999 !important; /* Stelle sicher, dass es über anderen Elementen liegt */
+/* Noch spezifischer, um sicherzugehen, dass die Änderungen Vorrang haben */
+html body #VG_OVERLAY_CONTAINER iframe {
+    width: 300px !important;
+    height: 400px !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
 }
 
-/* Passe den Nachrichtenbereich an */
-.vg-chatbox {
+html body #VG_OVERLAY_CONTAINER .vg-chatbox {
     width: 100% !important;
-    height: 300px !important; /* Nachrichtenfenster kleiner machen */
+    height: 300px !important;
 }
