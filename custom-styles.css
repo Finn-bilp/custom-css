@@ -2,6 +2,10 @@
 #VG_OVERLAY_CONTAINER iframe {
     width: 300px !important; /* Stell hier deine Wunschbreite ein */
     height: 400px !important; /* Stell hier deine Wunschhöhe ein */
+    position: fixed !important; /* Behält die Position des Widgets bei */
+    bottom: 20px !important; /* Abstand vom unteren Rand */
+    right: 20px !important; /* Abstand vom rechten Rand */
+    z-index: 9999 !important; /* Stelle sicher, dass es über anderen Elementen liegt */
 }
 
 /* Passe den Nachrichtenbereich an */
