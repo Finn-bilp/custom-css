@@ -1,1 +1,34 @@
+.c-PJLV-jJkrMz-mode-overlay {
+    max-width: 248px;
+    max-height: 248px;
+    object-fit: contain;
+  }
 
+  .vfrc-footer {
+    background-color: #005792; /* Dunkelblau */
+    color: #ffffff; /* Weißer Text für guten Kontrast */
+    padding: 20px; /* Optional: Abstand hinzufügen */
+    text-align: center; /* Optional: Zentriere den Text */
+}
+
+.vfrc-header {
+  background-color: #005792;
+  padding: 8px;
+  text-align: center;
+}
+
+.vfrc-header--title {
+    color: #66b2ff;  
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.vfrc-footer--watermark {
+  color: #66b2ff; /* Helleres Blau */
+}
+
+.vfrc-header--title {
+  line-height: 1.2; /* Stellt sicher, dass der Zeilenabstand größer ist */
+  padding-top: 5px; /* Optional: Fügt zusätzlichen Platz oben hinzu */
+  padding-bottom: 5px; /* Optional: Fügt zusätzlichen Platz unten hinzu */
+}
